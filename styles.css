@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(44, 83, 131);
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}
+
+h2,
+h1,
+.details {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 2rem;
+    width: 50%;
+}
+
+td,
+th {
+    border-top: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+    color: black;
+}
+
+
+tr:nth-child(odd):not(:first-child) a {
+    color: white;
+}
+
+tr:nth-child(even):not(:first-child) a {
+    color: black;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
